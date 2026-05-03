@@ -280,22 +280,6 @@ export default function App() {
                 real.
               </span>
             </h2>
-
-            <p className="mt-8 text-lg leading-relaxed text-zinc-400 max-w-xl">
-              Instead of overloaded visuals and fake-looking effects, this redesigned UI focuses on spacing, typography, subtle glassmorphism, and smooth motion for a more premium human-crafted experience.
-            </p>
-
-            <div className="mt-10 flex gap-4 flex-wrap">
-              <div className="rounded-2xl border border-white/5 bg-white/[0.03] px-6 py-5">
-                <h3 className="text-2xl font-black">Responsive</h3>
-                <p className="mt-2 text-zinc-500">Mobile-first layout</p>
-              </div>
-
-              <div className="rounded-2xl border border-white/5 bg-white/[0.03] px-6 py-5">
-                <h3 className="text-2xl font-black">Smooth</h3>
-                <p className="mt-2 text-zinc-500">Soft animations</p>
-              </div>
-            </div>
           </div>
         </div>
       </section>
