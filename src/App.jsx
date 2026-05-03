@@ -1,4 +1,5 @@
 import './App.css'
+
 export default function App() {
   const features = [
     {
@@ -77,19 +78,19 @@ export default function App() {
       {/* NAVBAR */}
       <header className="sticky top-0 z-50 border-b border-white/5 bg-[#09090B]/80 backdrop-blur-xl">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-          <div>
-            <h1 className="text-2xl font-black tracking-tight">
-              GP <span className="text-cyan-400">esports</span>
-            </h1>
-          </div>
+          <h1 className="text-2xl font-black tracking-tight">
+            GP <span className="text-cyan-400">esports</span>
+          </h1>
 
           <nav className="hidden md:flex items-center gap-8 text-sm text-zinc-400">
             <a href="#features" className="hover:text-white transition-colors">
               Features
             </a>
+
             <a href="#games" className="hover:text-white transition-colors">
               Games
             </a>
+
             <a href="#community" className="hover:text-white transition-colors">
               Community
             </a>
@@ -116,14 +117,16 @@ export default function App() {
             </div>
 
             <h1 className="text-5xl md:text-7xl font-black leading-[0.95] tracking-tight max-w-2xl">
-               Gaming
+              Gaming
               <span className="block text-zinc-400">
                 Community For Nepal
               </span>
             </h1>
 
             <p className="mt-8 max-w-xl text-lg leading-relaxed text-zinc-400">
-              Join nightly PUBG scrims, connect with top-tier players, access fast gaming top-ups, and grow with one of Nepal’s rising esports communities.
+              Join nightly PUBG scrims, connect with top-tier players,
+              access fast gaming top-ups, and grow with one of Nepal’s
+              rising esports communities.
             </p>
 
             <div className="mt-10 flex flex-wrap gap-4">
@@ -140,23 +143,6 @@ export default function App() {
                 Explore Scrims
               </button>
             </div>
-
-            <div className="mt-14 grid grid-cols-3 gap-6 max-w-lg">
-              <div>
-                <h3 className="text-3xl font-black">9PM</h3>
-                <p className="mt-2 text-sm text-zinc-500">Daily Scrims</p>
-              </div>
-
-              <div>
-                <h3 className="text-3xl font-black">T1</h3>
-                <p className="mt-2 text-sm text-zinc-500">Competitive Teams</p>
-              </div>
-
-              <div>
-                <h3 className="text-3xl font-black">24/7</h3>
-                <p className="mt-2 text-sm text-zinc-500">Top-Up Services</p>
-              </div>
-            </div>
           </div>
 
           <div className="relative flex justify-center fade-up">
@@ -167,7 +153,11 @@ export default function App() {
                     <p className="text-sm uppercase tracking-[3px] text-zinc-500">
                       Community Manager
                     </p>
-                    <h2 className="mt-2 text-3xl font-black">ZERONot</h2>
+
+                    <h2 className="mt-2 text-3xl font-black">
+                      ZERONot
+                    </h2>
+
                     <p className="text-zinc-500">Indra</p>
                   </div>
 
@@ -180,7 +170,10 @@ export default function App() {
                       key={index}
                       className="flex items-center justify-between rounded-2xl border border-white/5 bg-white/[0.03] px-5 py-4 transition-all duration-300 hover:border-cyan-400/30 hover:bg-cyan-400/[0.03]"
                     >
-                      <span className="font-medium text-zinc-200">{game}</span>
+                      <span className="font-medium text-zinc-200">
+                        {game}
+                      </span>
+
                       <span className="h-2.5 w-2.5 rounded-full bg-cyan-400"></span>
                     </div>
                   ))}
@@ -190,8 +183,10 @@ export default function App() {
                   <p className="text-xs uppercase tracking-[3px] text-cyan-300 mb-2">
                     Vision
                   </p>
+
                   <p className="text-zinc-300 leading-relaxed">
-                    Building a competitive and respected esports scene for Nepalese gamers.
+                    Building a competitive and respected esports scene
+                    for Nepalese gamers.
                   </p>
                 </div>
               </div>
@@ -237,18 +232,16 @@ export default function App() {
         </div>
       </section>
 
-      {/* COMMUNITY SECTION */}
-      <section
-        id="games"
-        className="px-6 py-24"
-      >
-        <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-10 items-center">
+      {/* GAMES */}
+      <section id="games" className="px-6 py-24">
+        <div className="max-w-7xl mx-auto">
           <div className="glass rounded-[32px] p-8 md:p-10">
             <div className="flex items-center justify-between mb-8">
               <div>
                 <p className="text-sm uppercase tracking-[4px] text-zinc-500">
                   Supported Games
                 </p>
+
                 <h2 className="mt-3 text-4xl font-black">
                   Multi-Game Support
                 </h2>
@@ -268,8 +261,7 @@ export default function App() {
               ))}
             </div>
           </div>
-
-  
+        </div>
       </section>
 
       {/* CTA */}
@@ -287,7 +279,9 @@ export default function App() {
           </h2>
 
           <p className="mt-8 max-w-2xl mx-auto text-lg leading-relaxed text-zinc-400">
-            Connect with esports players across Nepal, participate in daily scrims, and become part of the next generation gaming community.
+            Connect with esports players across Nepal,
+            participate in daily scrims, and become part
+            of the next generation gaming community.
           </p>
 
           <a
@@ -308,6 +302,7 @@ export default function App() {
             <h3 className="text-2xl font-black">
               GP <span className="text-cyan-400">esports</span>
             </h3>
+
             <p className="mt-2 text-zinc-500 text-sm">
               Nepal PUBG Esports Community
             </p>
@@ -317,9 +312,11 @@ export default function App() {
             <a href="#" className="hover:text-white transition-colors">
               Discord
             </a>
+
             <a href="#" className="hover:text-white transition-colors">
               Scrims
             </a>
+
             <a href="#" className="hover:text-white transition-colors">
               Top-Up
             </a>
