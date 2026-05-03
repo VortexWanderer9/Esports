@@ -116,7 +116,7 @@ export default function App() {
             </div>
 
             <h1 className="text-5xl md:text-7xl font-black leading-[0.95] tracking-tight max-w-2xl">
-              Modern Gaming
+               Gaming
               <span className="block text-zinc-400">
                 Community For Nepal
               </span>
@@ -277,7 +277,7 @@ export default function App() {
             <h2 className="text-4xl md:text-6xl font-black leading-tight">
               Designed to feel
               <span className="block text-zinc-400">
-                modern & real.
+                real.
               </span>
             </h2>
 
