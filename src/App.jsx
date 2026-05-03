@@ -269,19 +269,7 @@ export default function App() {
             </div>
           </div>
 
-          <div className="fade-up">
-            <p className="text-sm uppercase tracking-[4px] text-purple-400 mb-5">
-              Smooth Experience
-            </p>
-
-            <h2 className="text-4xl md:text-6xl font-black leading-tight">
-              Designed to feel
-              <span className="block text-zinc-400">
-                real.
-              </span>
-            </h2>
-          </div>
-        </div>
+  
       </section>
 
       {/* CTA */}
